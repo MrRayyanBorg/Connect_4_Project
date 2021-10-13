@@ -22,4 +22,14 @@ class Validator:
         if board[r][c] == chip and board[r+1][c] == chip and board[r+2][c] == chip and board[r+3][c] == chip:
           return True
     
-
+    # Search Upward Diagonal connect four 
+    for c in range(columns-3): 
+      for r in range(rows-3):
+        if board[r][c] == chip and board[r+1][c+1] == chip and board[r+2][c+2] == chip and board[r+3][c+3] == chip:
+          return True
+    
+    # Search Downward Diagonal connect four 
+    for c in range(columns-3): 
+      for r in range(3,rows):
+        if board[r][c] == chip and board[r-1][c+1] == chip and board[r-2][c+2] == chip and board[r-3][c+3] == chip:
+          return True
