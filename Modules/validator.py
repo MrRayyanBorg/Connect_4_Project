@@ -15,5 +15,11 @@ class Validator:
       for r in range(rows):
         if board[r][c] == chip and board[r][c+1] == chip and board[r][c+2] == chip and board[r][c+3] == chip:
           return True
+
+    # Search vertical connect four
+    for c in range(columns): 
+      for r in range(rows-3):
+        if board[r][c] == chip and board[r+1][c] == chip and board[r+2][c] == chip and board[r+3][c] == chip:
+          return True
     
 
