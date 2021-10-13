@@ -22,7 +22,7 @@ class Board:
     for i in board:
       print(i)
 
-  def get_next_open_row(board, rows, input_column):
+  def get_next_open_row(board, rows, columns):
     for row in range(rows):
-      if board[row][input_column] == 0:
+      if board[row][columns] == 0:
         return row
