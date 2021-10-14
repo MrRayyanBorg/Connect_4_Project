@@ -32,6 +32,7 @@ while not game_over: #This will continue running until the game is over
       if Validator.validate_win(board,ROW_COUNT,COLUMN_COUNT,PLAYER1_ID) == True:
         Player.player_win(PLAYER1_ID)
         game_over = True
+        break
 
   #Player2 turn
   else:
@@ -44,6 +45,11 @@ while not game_over: #This will continue running until the game is over
     else:
       chip_slot = Board.get_next_open_row(board, ROW_COUNT, input_column)
       Player.add_chip(board, chip_slot, input_column, PLAYER2_ID)
+
+      if Validator.validate_win(board,ROW_COUNT,COLUMN_COUNT,PLAYER2_ID) == True:
+        Player.player_win(PLAYER2_ID)
+        game_over = True
+        break
   
   Board.print_board(Board.flip_board(board))
 
