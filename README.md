@@ -9,7 +9,7 @@ Dependencies / Prerequisite:
 ## Challenge Outline
 The initial challenge I chose to undertake was the popular game 'Connect FOUR'. A strategic game whereby players take turns dropping chips into a board in hopes of connecting four chips to win. There are many strategies behind this rather simple game, some of which I had to explore to incorporate into the AI bot, the goal of which was to create an intelligent bot which is smarter than random, and has the ability to beat many average-skilled players through favouring positions which increase its probability of winning and blocking its opponent from taking winning positions to decrease its chances of losing.
 
-**Summary and review of the problem, overall proposed solution**
+###**Summary and review of the problem, overall proposed solution**
 
 With the creation of the initial game, I wanted to ensure I wasn't using any libraries which would take away from the complexity of the project, for example using a library such as 'numpy' would allow for complex operations to be shortcutted, hence, taking away from the project's complexity.
 
@@ -21,11 +21,13 @@ As the scope of creating an intelligent bot is extremely complex, my initial sol
 
 
 **Initial working plan, overall approach, development strategy and approach to quality**
+
 My initial plan when starting this project was to understand the rules of Connect FOUR first, this is because the full set of rules must be understood in order to code the rules of the game for users to follow. I would use levels of abstraction and decomposition to simplify complex problems into small steps to create simple solutions. I would then plan to build onto the basic functionality, introducing validation related commits, as well as ensuring the game state and user input validations were in order.
 
 My object oriented approach meant my code would be relatively easy to understand as the major functionalities were split into modules, to then be imported into the `main.py` script. This also relates to my approach to quality as the code is readable, and can be easily maintained in the event of error.
 
 **Analysis and decomposition of the overall problem into key ‘epic’ style tasks**
+
 This section is a breakdown of key tasks which need to be complete in order for the program to properly function as the intended game.
   1. Create the game board
   2. Create Player entities
