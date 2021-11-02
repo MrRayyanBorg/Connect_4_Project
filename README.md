@@ -1,2 +1,2 @@
-# Connect_4_Project
-Connect 4 - but with a little more complexity.
+# Borg's Connect 4
+Simplicity on the far side of Complexity.
