@@ -17,17 +17,15 @@ My proposed solution for overcoming the project's complexity was to use an objec
 
 As the scope of creating an intelligent bot is extremely complex, my initial solution was to first `import random`, enabling me to use the `random.randint(min,max)` function to allow the bot to randomly select a position on the board which was available. However, this was not at all complex and my main goal was to create something which is *hard to beat*, hence, I used a basic algorithm to score each of the columns, allowing the bot to choose the best position every turn.
 
-**UML style diagram illustrating initial overall solution**
+### UML style diagram illustrating initial overall solution
 
 
-**Initial working plan, overall approach, development strategy and approach to quality**
-
+### Initial working plan, overall approach, development strategy and approach to quality
 My initial plan when starting this project was to understand the rules of Connect FOUR first, this is because the full set of rules must be understood in order to code the rules of the game for users to follow. I would use levels of abstraction and decomposition to simplify complex problems into small steps to create simple solutions. I would then plan to build onto the basic functionality, introducing validation related commits, as well as ensuring the game state and user input validations were in order.
 
 My object oriented approach meant my code would be relatively easy to understand as the major functionalities were split into modules, to then be imported into the `main.py` script. This also relates to my approach to quality as the code is readable, and can be easily maintained in the event of error.
 
-**Analysis and decomposition of the overall problem into key ‘epic’ style tasks**
-
+### Analysis and decomposition of the overall problem into key ‘epic’ style tasks
 This section is a breakdown of key tasks which need to be complete in order for the program to properly function as the intended game.
   1. Create the game board
   2. Create Player entities
@@ -42,7 +40,7 @@ This section is a breakdown of key tasks which need to be complete in order for 
 
 Ofcourse these can be further decomposed into smaller and smaller problems, but having the major objectives outlined generated a structure for me to abid by in order to complete the development of the game.
 
-**Initial object-oriented design ideas and planned phased breakdown into smaller tasks**
+### Initial object-oriented design ideas and planned phased breakdown into smaller tasks
 As my game already uses an object oriented approach whereby major components are broken down into Modules, I will list out each of these modules, as well as their associated functions to give a better understanding of how the program was initially designed.
 
 Module | Class | Class description | 
