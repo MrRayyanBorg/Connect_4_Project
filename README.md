@@ -2,8 +2,8 @@
 Connect FOUR game created using Python.
 
 Dependencies / Prerequisite:
-  1. "import colorama" &rarr used to allow colours within the console, differentiating player one & player 2.
-  2. "import random" &rarr used to generate a random number within a Min,Max Range.
+  1. `import colorama` &rarr used to allow colours within the console, differentiating player one & player 2.
+  2. `import random` &rarr used to generate a random number within a Min,Max Range.
 
 ## Challenge Outline
 The initial challenge I chose to undertake was the popular game 'Connect FOUR'. A strategic game whereby players take turns dropping chips into a board in hopes of connecting four chips to win. There are many strategies behind this rather simple game, some of which I had to explore to incorporate into the AI bot, the goal of which was to create an intelligent bot which is smarter than random, and has the ability to beat many average-skilled players through favouring positions which increase its probability of winning and blocking its opponent from taking winning positions to decrease its chances of losing.
@@ -14,7 +14,7 @@ With the creation of the initial game, I wanted to ensure I wasn't using any lib
 
 My proposed solution for overcoming the project's complexity was to use an object-oriented approach, creating modules to store functions, and ensuring these functions were *pure* meaning they do not have any side effects.
 
-As the scope of creating an intelligent bot is extremely complex, my initial solution was to first "import random", enabling me to use the "random.randint(min,max)" function to allow the bot to randomly select a position on the board which was available. However, this was not at all complex my main goal was to create something which is *hard to beat*, hence, I used a basic algorithm to score each of the columns, allowing the bot to choose the best position every turn.
+As the scope of creating an intelligent bot is extremely complex, my initial solution was to first `import random`, enabling me to use the `random.randint(min,max)` function to allow the bot to randomly select a position on the board which was available. However, this was not at all complex my main goal was to create something which is *hard to beat*, hence, I used a basic algorithm to score each of the columns, allowing the bot to choose the best position every turn.
 
 * b. UML style diagram illustrating initial overall solution (linked to 1a)
 * c. Initial working plan, overall approach, development strategy and approach to quality (linked to 1a, 1b).
