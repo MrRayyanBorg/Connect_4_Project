@@ -43,7 +43,7 @@ Ofcourse these can be further decomposed into smaller and smaller problems, but 
 ** Initial object-oriented design ideas and planned phased breakdown into smaller tasks (linked to 1d) **
 As my game already uses an object oriented approach, whereby major components are broken down into Modules, I will list out each of these modules, as well as their associated functions.
 
-Module name | Class | Class description | 
+Module | Class | Class description | 
 --- | --- | --- |
 Board | `create_board()` | Creates the initial board, set using constant variables `ROW_COUNT` and `COLUMN_COUNT` |
 Board | `flip_board()` | Inverts the board along the Y-axis, giving the illusion of gravity on the game board |
