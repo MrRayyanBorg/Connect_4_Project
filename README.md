@@ -1,9 +1,15 @@
 # Borg's Connect 4
-Complexity on the far side of Simplicity.
+Connect FOUR game created using Python.
+
+Dependencies / Prerequisite:
+  1. 'import colorama' &rarr used to allow colours within the console, differentiating player one & player 2.
+  2. 'import random' &rarr used to generate a random number within a Min,Max Range.
+
 ## Challenge Outline
-To create a Connect FOUR game allowing a user to play against an intelligent bot, or multiplayer with another user.
+The initial challenge I chose to undertake was the popular game 'Connect FOUR'. A strategic game whereby players take turns dropping chips into a board in hopes of connecting four chips to win. There are many strategies behind this rather simple game, some of which I had to explore to incorporate into the AI bot, the goal of which was to create an intelligent bot which is smarter than random, and has the ability to beat many average-skilled players through favouring positions which increase its probability of winning and blocking its opponent from taking winning positions to decrease its chances of losing.
 
 * a. Summary and review of the problem, overall proposed solution.
+
 * b. UML style diagram illustrating initial overall solution (linked to 1a)
 * c. Initial working plan, overall approach, development strategy and approach to quality (linked to 1a, 1b).
 * d. Analysis and decomposition of the overall problem into key ‘epic’ style tasks (linked to 1b, 1c).
