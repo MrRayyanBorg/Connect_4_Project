@@ -83,7 +83,7 @@ In order to use good coding standards I followed several steps when writing new 
 
 ### Phase 1 development: tasks, code review and changes
 Phase | Tasks | Code Review | Changes | 
---- | --- | --- |
+--- | --- | --- | --- |
 Phase 1: Board | Creating the board | blah | I had previously done this using the numpy library, however I didn't want to use any shortcuts which may impact the complexity of the project, hence, the change to a 2D array |
 ### ..repeated for each development phase
 ### Phase n development: tasks, code review and changes
