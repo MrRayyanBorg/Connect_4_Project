@@ -73,16 +73,23 @@ As you can see, I've listed the modules in order of *date of implementation*, me
 The first three phases were to get the basis of the game started and functioning properly, hence their prioritisation. The last two phases were to make the program more effective in handling errors, as well as adding an additional part to the game allowing for a single player mode against an intelligent bot, making the development of the game more complex overall.
 
 ## Development
-* a. Adoption and use of ‘good’ standards (linked to 1a, 1b, 1c).
-* b. Phase 1 development: tasks, code review and changes (linked to 1d,1e).
-* c. ..repeated for each development phase.
-* d. Phase n development: tasks, code review and changes (linked to 1d,1e).
-* e. Ensuring quality through testing and resolving bugs (linked to 1a, 1b, 2a, 2b..2c).
-* f. Reflection on key design challenges, innovations and how they were solved (with examples).
+### Adoption and use of ‘good’ standards
+In order to use good coding standards I followed several steps when writing new code and to be applied to existing code, to ensure the coding standards followed were consistent and concise. These steps include:
+  1. Write as few lines as possible as code blocks that are smaller in size are generally easier to understand and than large paragraph-like blocks.
+  2. Use appropriate naming conventions within my constants and variables; this would make the use of variables easier to understand throughout the program.
+  3. Use indentation to mark the beginning and end of controlled structures such as loops, conditional statements, and functions.
+  4. Avoid deep nesting functions and ensure that they are pure - this did become a little hard to manage when using my modular approach as functions needed to be nested together to ensure they were kept simple and did not carry any side products.
+  5. Following the DRY (Don’t Repeat Yourself) principle as it takes away from the efficiency of code due to duplication of code blocks.
+
+### Phase 1 development: tasks, code review and changes
+### ..repeated for each development phase
+### Phase n development: tasks, code review and changes
+### Ensuring quality through testing and resolving bugs
+### Reflection on key design challenges, innovations and how they were solved
 
 ## Evaluation
-* a. Analysis with embedded examples of key code refactoring, reuse, smells.
-* b. Implementation and effective use of ‘advanced’ programming principles (with examples).
-* c. Features showcase and embedded innovations (with examples) - opportunity to ‘highlight’ best bits.
-* d. Improved algorithms – research, design, implementation, and tested confirmation (with examples).
-* e. Reflective review, opportunities to improve and continued professional development.
+### Analysis with embedded examples of key code refactoring, reuse, smells
+### Implementation and effective use of ‘advanced’ programming principles
+### Features showcase and embedded innovations
+### Improved algorithms – research, design, implementation, and tested confirmation
+### Reflective review, opportunities to improve and continued professional development
