@@ -92,8 +92,46 @@ Phase 5: Bot | <ul><li>Random position input (No longer used)</li><li>Check wind
 
 
 ## Evaluation
+This Evaluation section covers the evaluation of the project overall, including many key parts such as code refactoring, use of advanced principles, improved algorithms, and reflective review.
 ### Analysis with embedded examples of key code refactoring, reuse, smells
+Within the implementation of my code, I tried to avoid the use of random numbers throughout the program to do this, I would assign these numbers to constants at the start of the program and use good naming conventions. This allows other uses looking in the program to understand what something is and why it's there. A good example of this would be  rows and columns of the game board as well as playerIDs and Player Turns.
+![image](https://user-images.githubusercontent.com/42804334/140045527-323350d5-dca6-44a3-8484-6b19c8650b20.png)
+
+
+Another example of having a good code smell would be my use of modules and object oriented approach these modules wood house functions in relation to the objects they referred to for example the board  module would use various functions within its class to relate to the board.
+![image](https://user-images.githubusercontent.com/42804334/140045808-3916bbe5-67ed-45d7-9909-ceeb7bcf3010.png)
+![image](https://user-images.githubusercontent.com/42804334/140045882-752e3b20-e6ea-4937-9fe8-3b2248ea47c7.png)
+
+
+Another good example of having a good coat smell within my program was to reduce the repetition of code on to do this I've created functions within modules that can be cooled upon that prevent me from having to repeat code blocks.
+![image](https://user-images.githubusercontent.com/42804334/140046242-4a211153-ec75-474f-b24e-afb472d244b0.png)
+
 ### Implementation and effective use of ‘advanced’ programming principles
+With regards to my use of advanced programming principles I've ensured that my code uses an object oriented approach as well as a modular approach to keep code easy to manage and maintain there are various cases within my program encapsulation has been used as well as validation I never handling of user inputs my code also uses pure functions and methods meaning they do not carry any side effects and returned an expected value when run.
+#### Evidence: Object Oriented Approach
+![image](https://user-images.githubusercontent.com/42804334/140046692-3fb28619-6464-40a4-93df-708f41397f42.png)
+#### Evidence: Pure Functions
+![image](https://user-images.githubusercontent.com/42804334/140046766-bce3ee59-245d-441d-accd-ddc8820371e3.png)
+#### Evidence: Modularity
+![image](https://user-images.githubusercontent.com/42804334/140046817-757bdeaf-93f9-49ba-b95f-21a1d631bce1.png)
+
 ### Features showcase and embedded innovations
+In regards to my Showcase of features an embedded Innovations I believe my main feature is the but which is somewhat hard to beat for an average player the bought uses an initial algorithm and I will talk about the improved algorithm within the next section however it features the ability to school Collins based on potential of winning losing and gaining the potential to win through a line of three chips.
+![image](https://user-images.githubusercontent.com/42804334/140047080-d5a10215-6705-484f-a69f-893676c5ce66.png)
+
+I'm guilty of losing to my own bot however I know that the strategy of this bot can be improved several times through something like a Minimax method, which is an algorithm used in many board games which will score positions based on the next couple positions it opens up to. using all of this data the Minimax method will choose the best column to input. My implementation of this is similar to the Minimax algorithm in the sense that the bot will look for winning positions and lines of three, and also blocks the opponent from winning however my bot does not look at the potential of potential positions meaning it doesn't go down more than one layer, where is the Mini Max  method can go down to seven layers making it several times smarter.
+
+![image](https://user-images.githubusercontent.com/42804334/140047877-3d3ecd56-e160-41f4-a001-6a32b188ed25.png)
+
 ### Improved algorithms – research, design, implementation, and tested confirmation
+As I said the way to improve my botd algorithm would be to make you use of a Minimax algorithm whereby my bot is able to score positions based on future positions that open up. As recollected my bot can only stick down to one layer of thinking meaning it thinks one step ahead, whereas the most advanced bots can think 7 steps ahead.
+![image](https://user-images.githubusercontent.com/42804334/140048319-955c9645-0680-49a9-901b-91f3027d8a7e.png)
+
+The image above represents the scoring mechanism my bot uses. It in an order of priority where a winning position would be very highly prioritized over a `line of three` and The blocking of an opponent's winning position would be prioritized over a `line of three`,  `a line of three` would also be prioritised over a line of to for example.
+
 ### Reflective review, opportunities to improve and continued professional development
+To review upon this project I believe there were many areas that I could have improved upon to ensure the delivery of the projects within the time frame firstly making use of a time management plan for cancer would have benefited me greatly in ensuring the delivery time for the project as I would have been able to plan out days rather than make use of guesswork in my head.
+
+Another opportunity to improve my project was to add complexity by adding a third player to the game hence it would have made for a more fun game if there was 3 game modes as opposed to two, but relating back to my earlier point this project had a tight deadline for its scope.
+
+Lastly I believe the best way to gain more insight on my code, was through scheduling program reviews with my peers,  as it had given me a better understanding of where I could have improved my program and I added new features.
