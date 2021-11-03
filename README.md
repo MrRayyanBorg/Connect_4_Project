@@ -82,9 +82,9 @@ In order to use good coding standards I followed several steps when writing new 
   5. Following the DRY (Don’t Repeat Yourself) principle as it takes away from the efficiency of code due to duplication of code blocks.
 
 ### Phase 1 development: tasks, code review and changes
-Phase | Tasks | Code Review | Changes | 
+Phase | Tasks | Code Review | Description | 
 --- | --- | --- | --- |
-Phase 1: Board | Creating the board | blah | I had previously done this using the numpy library, however I didn't want to use any shortcuts which may impact the complexity of the project, hence, the change to a 2D array |
+Phase 1: Board | <ul><li>Creating the board</li><li>Finding open rows</li><li>Outputting board</li></ul> | blah | <ul><li>I had previously created the board using the numpy library, however I didn't want to use any shortcuts which may of impacted the complexity of the project, hence, the change to a 2D array.</li><li>Finding the next open row on a column has a great functionality of knowing where the chip goes, once a user selects a column.</li><li>Outputting the board was done in two steps, first flipping the board to ensure it started from the bottom up, then using a for loop to output each row of the board, stacked ontop of one another.</li></ul> |
 ### ..repeated for each development phase
 ### Phase n development: tasks, code review and changes
 ### Ensuring quality through testing and resolving bugs
