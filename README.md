@@ -95,15 +95,19 @@ Phase 5: Bot | <ul><li>Random position input (No longer used)</li><li>Check wind
 This Evaluation section covers the evaluation of the project overall, including many key parts such as code refactoring, use of advanced principles, improved algorithms, and reflective review.
 ### Analysis with embedded examples of key code refactoring, reuse, smells
 Within the implementation of my code, I tried to avoid the use of random numbers throughout the program to do this, I would assign these numbers to constants at the start of the program and use good naming conventions. This allows other uses looking in the program to understand what something is and why it's there. A good example of this would be  rows and columns of the game board as well as playerIDs and Player Turns.
+
 ![image](https://user-images.githubusercontent.com/42804334/140045527-323350d5-dca6-44a3-8484-6b19c8650b20.png)
 
 
 Another example of having a good code smell would be my use of modules and object oriented approach these modules wood house functions in relation to the objects they referred to for example the board  module would use various functions within its class to relate to the board.
+
 ![image](https://user-images.githubusercontent.com/42804334/140045808-3916bbe5-67ed-45d7-9909-ceeb7bcf3010.png)
+
 ![image](https://user-images.githubusercontent.com/42804334/140045882-752e3b20-e6ea-4937-9fe8-3b2248ea47c7.png)
 
 
 Another good example of having a good coat smell within my program was to reduce the repetition of code on to do this I've created functions within modules that can be cooled upon that prevent me from having to repeat code blocks.
+
 ![image](https://user-images.githubusercontent.com/42804334/140046242-4a211153-ec75-474f-b24e-afb472d244b0.png)
 
 ### Implementation and effective use of ‘advanced’ programming principles
