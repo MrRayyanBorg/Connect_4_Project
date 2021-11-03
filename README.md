@@ -82,6 +82,9 @@ In order to use good coding standards I followed several steps when writing new 
   5. Following the DRY (Don’t Repeat Yourself) principle as it takes away from the efficiency of code due to duplication of code blocks.
 
 ### Phase 1 development: tasks, code review and changes
+Phase | Tasks | Code Review | Changes | 
+--- | --- | --- |
+Phase 1: Board | <ul><li>`create_board()`</li><li>`flip_board()`</li><li>`print_board()`</li><li>`get_next_open_row()`</li></ul> | blah | blah |
 ### ..repeated for each development phase
 ### Phase n development: tasks, code review and changes
 ### Ensuring quality through testing and resolving bugs
