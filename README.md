@@ -18,6 +18,9 @@ My proposed solution for overcoming the project's complexity was to use an objec
 As the scope of creating an intelligent bot is extremely complex, my initial solution was to first `import random`, enabling me to use the `random.randint(min,max)` function to allow the bot to randomly select a position on the board which was available. However, this was not at all complex and my main goal was to create something which is *hard to beat*, hence, I used a basic algorithm to score each of the columns, allowing the bot to choose the best position every turn.
 
 ### UML style diagram illustrating initial overall solution
+UML is a standard language used for designing and documenting a system in an object-oriented manner. Below is identified as a structural diagram and outlines how the program is structured with regards to Modules and classes.
+
+![image](https://user-images.githubusercontent.com/42804334/140051952-14a33f5a-2a9b-4ce1-8734-71d9c2239011.png)
 
 
 ### Initial working plan, overall approach, development strategy and approach to quality
