@@ -112,15 +112,19 @@ Another good example of having a good coat smell within my program was to reduce
 
 ### Implementation and effective use of ‘advanced’ programming principles
 With regards to my use of advanced programming principles I've ensured that my code uses an object oriented approach as well as a modular approach to keep code easy to manage and maintain there are various cases within my program encapsulation has been used as well as validation I never handling of user inputs my code also uses pure functions and methods meaning they do not carry any side effects and returned an expected value when run.
+
 #### Evidence: Object Oriented Approach
 ![image](https://user-images.githubusercontent.com/42804334/140046692-3fb28619-6464-40a4-93df-708f41397f42.png)
+
 #### Evidence: Pure Functions
 ![image](https://user-images.githubusercontent.com/42804334/140046766-bce3ee59-245d-441d-accd-ddc8820371e3.png)
+
 #### Evidence: Modularity
 ![image](https://user-images.githubusercontent.com/42804334/140046817-757bdeaf-93f9-49ba-b95f-21a1d631bce1.png)
 
 ### Features showcase and embedded innovations
 In regards to my Showcase of features an embedded Innovations I believe my main feature is the but which is somewhat hard to beat for an average player the bought uses an initial algorithm and I will talk about the improved algorithm within the next section however it features the ability to school Collins based on potential of winning losing and gaining the potential to win through a line of three chips.
+
 ![image](https://user-images.githubusercontent.com/42804334/140047080-d5a10215-6705-484f-a69f-893676c5ce66.png)
 
 I'm guilty of losing to my own bot however I know that the strategy of this bot can be improved several times through something like a Minimax method, which is an algorithm used in many board games which will score positions based on the next couple positions it opens up to. using all of this data the Minimax method will choose the best column to input. My implementation of this is similar to the Minimax algorithm in the sense that the bot will look for winning positions and lines of three, and also blocks the opponent from winning however my bot does not look at the potential of potential positions meaning it doesn't go down more than one layer, where is the Mini Max  method can go down to seven layers making it several times smarter.
@@ -129,6 +133,7 @@ I'm guilty of losing to my own bot however I know that the strategy of this bot 
 
 ### Improved algorithms – research, design, implementation, and tested confirmation
 As I said the way to improve my botd algorithm would be to make you use of a Minimax algorithm whereby my bot is able to score positions based on future positions that open up. As recollected my bot can only stick down to one layer of thinking meaning it thinks one step ahead, whereas the most advanced bots can think 7 steps ahead.
+
 ![image](https://user-images.githubusercontent.com/42804334/140048319-955c9645-0680-49a9-901b-91f3027d8a7e.png)
 
 The image above represents the scoring mechanism my bot uses. It in an order of priority where a winning position would be very highly prioritized over a `line of three` and The blocking of an opponent's winning position would be prioritized over a `line of three`,  `a line of three` would also be prioritised over a line of to for example.
